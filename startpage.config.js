@@ -1,20 +1,20 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "chinmay29hub",
 	theme: {
-		backgroundColor: "#121317",
-		windowColor: "#1e212b",
-		glowColor: "#6b5cb157",
+		backgroundColor: "#1E1429",
+		windowColor: "#2b213a",
+		glowColor: "#ed73e1",
 		white: "#e2e2e2",
 		gray: "#97989d",
 		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		violet: "#d1aff8",
-		orange: "#ff8800"
+		red: "#fe4450",
+		green: "#72f1b8",
+		yellow: "#fede5d",
+		blue: "#03edf9",
+		cyan: "#03edf9",
+		magenta: "#ff7edb",
+		violet: "#A46CF3",
+		orange: "#F5A753"
 	},
 	wallpaper: {
 		url: "",
