@@ -12,7 +12,7 @@ export default function Home() {
 	const [isLoaded, setIsLoaded] = useState(false)
 
 	useEffect(() => {
-		const info = `\u00A9 2022-${new Date().getFullYear()} Can Cellek\n\nStart Page designed by Can Cellek\nCheck out the source code at\nhttps://github.com/excalith/excalith-start-page`
+		const info = `You found the console! But the princess is in another castle.`
 		console.log(info)
 	}, [])
 
@@ -69,7 +69,7 @@ export default function Home() {
 					{settings.wallpaper.url && (
 						<Image
 							alt=""
-							className={`transition-opacity w-screen h-screen -z-50 
+							className={`transition-opacity w-screen h-screen -z-50
 							${settings.wallpaper.easing}
 							${settings.wallpaper.fadeIn && "duration-1000"}
 							${settings.wallpaper.blur && "blur-wallpaper"}
